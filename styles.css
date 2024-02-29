@@ -1,0 +1,79 @@
+@font-face {
+    font-family: sephir;
+    src: url(Sephir-Regular.otf);
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(bg.jpg);
+    color: #000000;
+}
+
+h1 {
+    font-family: sephir;
+    color: #DCF2F1;
+    padding-left: 20px;
+    font-size: 30px;
+    float: left;
+}
+
+nav {
+    background-color: rgb(255, 255, 255,0);
+    padding: 30px;
+    float: right;
+}
+
+h2 {
+    margin-top: 70px;
+}
+
+nav a {
+    color: #DCF2F1;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav a:hover {
+    background-color: #40A2D8
+}
+
+a {
+    color: #3f3e3e;
+}
+
+section {
+    padding: 20px;
+    padding-bottom: 100px;
+}
+
+article {
+    background: rgba(252, 251, 251, 0.2);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    padding-left: 10px;
+}
+
+.date {
+    color: #3f3e3e;
+    font-size: 15px;
+}
+
+footer {
+    background: rgba(252, 251, 251, 0.2);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    color: #DCF2F1;
+    text-align: center;
+    padding: 10px 0;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}
