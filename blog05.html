@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to My Blog</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+    </nav>
+    <section>
+        <h2>Version Control with Git and Github</h2>
+        <p class="date">10th February 2024</p>
+        <article>
+            <p>In the dynamic world of software development, collaboration and code management are everywhere. As projects grow in
+            complexity and involve multiple contributors, the need for robust version control systems becomes evident. Among the
+            plethora of tools available, Git stands out as a versatile and powerful version control system, with GitHub serving as a
+            popular platform for hosting Git repositories. In this blog post, we'll delve into the fundamentals of version control
+            with Git and GitHub.</p>
+
+            <h3>What is Version Control?</h3>
+            <p>Version control is the practice of tracking and managing changes to source code over time. It allows developers to work
+            collaboratively on projects, maintain a history of modifications, and revert to previous states if necessary.</p>
+
+            <h3>Key Concepts of Git</h3>
+            <p><b>Repository (Repo):</b> A repository is a collection of files and folders associated with a project, along with metadata stored in a hidden
+            directory named .git. Git repositories can be local (on your machine) or remote (hosted on a server).</p>
+            <p><b>Commit:</b> A commit represents a snapshot of changes to the repository at a specific point in time. Each commit is accompanied by a
+            unique identifier (SHA-1 hash) and a commit message describing the modifications made.</p>
+            <p><b>Branch:</b> A branch is a parallel version of the repository's codebase, allowing developers to work on features or fixes
+            independently without affecting the main codebase (typically the main branch).</p>
+            <p><b>Merge:</b> Merging combines changes from one branch into another, integrating new features or bug fixes into the main codebase. Git
+            performs automatic merging whenever possible, but conflicts may arise that require manual resolution.</p>
+            <p><b>Fork:</b> A fork refers to creating a personal copy of someone else's repository. When you fork a repository, you're
+            essentially making a duplicate of the original repository under your GitHub account.</p>
+            <p><b>Pull Request:</b> A pull request allows developers to propose changes to a repository. It serves as a formal request to the original repository's owner
+            to pull in changes from a forked repository.</p>
+            <br>
+            
+            <h3>Getting Started with Git</h3>
+            <p><b>Install Git:</b> The most official build is available for download on the Git website. Just go to <a href="https://git-scm.com/">https://git-scm.com/</a></p>
+            <p><b>First Time Set Up:</b> The first thing you should do when you install Git is to set your user name and email address, using the following commands in your terminal or command prompt:</p>
+            <p><i>$ git config --global user.name "John Doe"</i></p>
+            <p><i>$ git config --global user.email johndoe@example.com</i></p>
+            <p><b>Create a Repository:</b> Navigate to the directory where you want to initialize your Git repository. Use the following command to initialize a new Git repository in the folder 'project':</p>
+            <p><i>$ cd C:/Users/user/project</i></p>
+            <p><i>git init</i></p>
+            <p>Alternatively, if you wish to clone an exisiting repo use: <i>$ git clone url</i></p>
+            <br>
+
+            <h3>Basic Git Commands</h3>
+            <p><i>git add</i>: Add changes to the staging area.</p>
+            <p><i>git commit</i>: Save changes to the repository with a descriptive commit message.</p>
+            <p><i>git status</i>: Check the status of your working directory and staging area.</p>
+            <p><i>git log</i>: View the commit history of your repository.</p>
+            <p><i>git push</i>: Push your commits to a remote repository (like GitHub).</p>
+            <br>
+
+            <h3>Conclusion</h3>
+            <p>Version control with Git and GitHub has revolutionized the way software development teams collaborate, manage code, and
+            streamline workflows. By leveraging these powerful tools, developers can work more efficiently, maintain code quality,
+            and foster a culture of collaboration within their organizations. Whether you're a seasoned developer or just starting
+            your coding journey, mastering Git and GitHub is essential for success in today's fast-paced software development
+            landscape.</p>
+        </article>
+    </section>
+    <footer>
+        <p>2024 My Blog</p>
+    </footer>
+</body>
+
+</html>
