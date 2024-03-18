@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to My Blog</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+    </nav>
+    <section>
+        <h2>HTML Forms Walkthrough</h2>
+        <p class="date">15th February 2024</p>
+        <article>
+            <p>In the realm of web development, forms serve as the bridge between users and websites, enabling interactions such as
+            submitting inquiries, making purchases, and providing feedback. Understanding how to create HTML forms is essential for
+            any aspiring web developer. In this comprehensive guide, we'll delve into the intricacies of crafting HTML forms from
+            scratch, covering everything from basic form elements to advanced form validation techniques.</p>
+
+            <p>
+                HTML forms are integral to gathering information from users and facilitating user engagement on websites. Whether it's a
+                simple contact form or a multi-step registration process, forms empower websites to collect data and interact with
+                visitors dynamically.
+            </p>
+
+            <br>
+
+            <img src="blog07.png" width="50%">
+
+            <h3>Basic HTML Form Structure</h3>
+            <p><b>&lt;form&gt;:</b> This tag encloses all form elements and defines how data is sent to the server upon submission. The action attribute
+            specifies the URL where the form data will be sent, and the method attribute defines the HTTP method (e.g., GET or POST)
+            used to submit the form data.</p>
+            <p><b>&lt;label&gt;:</b> Labels are used to describe form inputs, improving accessibility and user experience. The for attribute links the label
+            to its corresponding input element via the id attribute.</p>
+            <p><b>&lt;input&gt;:</b> Input elements are used to collect data from users. Common types include text, email, password, checkbox, radio buttons,
+            and submit buttons. The type attribute determines the input type, while the name attribute provides a key for
+            identifying the input data when the form is submitted.</p>
+            <p><b>&lt;textarea&gt;:</b> Textareas allow users to input multiple lines of text. The rows and cols attributes define the size of the textarea.</p>
+            <p><b>&lt;button&gt;:</b> Buttons can trigger form submission or perform other actions within the form.</p>
+
+            <h3>Form Validation</h3>
+            <p><i>&lt;input type="email" id="email" name="email" required&gt;</i></p>
+            <p>HTML5 introduced built-in form validation features that allow developers to specify input requirements without using
+            JavaScript. Adding the required attribute to an input element makes it mandatory, while input types such as email, url,
+            and number automatically validate the input format.</p>
+
+            <h3>Conclusion</h3>
+            <p>HTML forms serve as vital components of web development, enabling websites to collect user data and facilitate
+            interaction. By mastering the basics of HTML forms and understanding form validation techniques, you'll be equipped to
+            create dynamic and user-friendly web experiences.</p>
+
+        </article>
+    </section>
+    <footer>
+        <p>2024 My Blog</p>
+    </footer>
+</body>
+
+</html>
